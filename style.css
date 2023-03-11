@@ -1,0 +1,98 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0px;
+}
+
+body {
+    /* background-color: rgb(29, 29, 29); */
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+    /* center of screen div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer {
+    font-size: 8rem;
+    letter-spacing: -0.25rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    letter-spacing: -4px;
+    text-align: start;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.7);
+
+}
+
+
+.actionButton {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-radius: 500px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-transform: lowercase;
+    font-weight: 600;
+
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.start:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.start {
+    padding: .5rem 2.5rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.durationContainer {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.durationButton {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    /* margin:7px; */
+}
+
+.durationButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.durationButtonActive {
+    background-color: #fff;
+    color: #000;
+}
