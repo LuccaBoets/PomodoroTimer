@@ -9,11 +9,13 @@ body {
     height: 100%;
     min-height: 100%;
     margin: 0px;
+    padding: 0px;
 }
 
 body {
     /* background-color: rgb(29, 29, 29); */
-    background-image: url("background.jpg");
+    /* background-image: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQZz-JIb_SfSQGW_UYlVYgBv6nIxxH5WT3Ci0FWp3kCwueoCPetlAUi6vxv79ux4PdeblXMHcyMdYIDDlUdX3zP9cCsAA=w1241-h1089"); */
+    padding: 0px;
     background-size: cover;
 }
 
