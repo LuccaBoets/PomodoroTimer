@@ -39,35 +39,9 @@ function loadThemes(data) {
 
         count++;
     }
-
-    // var radios = document.getElementsByName("platform");
-    // console.log(radios)
-    // for (radio in radios) {
-    //     // console.log(radios[radio])
-    //     radios[radio].onclick = function () {
-    //         console.log(this.value)
-    //         changeTheme(this.value);
-    //     }
-    // }
-    
-    // const radios = document.querySelectorAll('input[type="radio"][name="platform"]');
-    // console.log(radios)
-    // radios.forEach(radio => {
-    //     radio.addEventListener("click", function () {
-    //         changeTheme(this.value);
-    //         if (this.checked) {
-    //             // Do something when the radio button is selected
-    //             console.log(`Radio button with value ${this.value} selected`);
-    //         }
-    //     });
-    // });
-
-    // document.body.innerHTML += style.outerHTML;
-    // console.log(style.innerHTML);
 }
 
 function changeTheme(name) {
-    // let theme = getCheckedValue("platform");
     console.log(name);
 
     let theme = themes.find(theme => theme.name == name);
