@@ -1,4 +1,7 @@
-let count = 1500;
+let pomodoroTimer = 50 * 60;
+let shortTimer = 10 * 60;
+let longTimer = 20 * 60;
+let count = pomodoroTimer;
 let interval;
 let countdown = document.getElementById("countdown");
 let previousDuration = "pomodoro";
@@ -136,11 +139,11 @@ function changeDuration(name) {
     document.getElementById("actionButton").textContent = "start";
 
     if (name == "pomodoro") {
-        count = 25 * 60;
+        count = pomodoroTimer;
     } else if (name == "short") {
-        count = 5 * 60;
+        count = shortTimer;
     } else if (name == "long") {
-        count = 10 * 60;
+        count = longTimer;
     }
 
     countdown.innerHTML = secondsToTime(count);
