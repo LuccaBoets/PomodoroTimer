@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Iosevka;
+    src: url('Iosevka-Bold.woff');
+}
+
 body {
-    font-family: 'Space Grotesk', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    font-family: Iosevka !important;
     font-weight: 600;
     color: #fff;
 }
@@ -98,3 +104,4 @@ body {
     background-color: #fff;
     color: #000;
 }
+
